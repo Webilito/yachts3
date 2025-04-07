@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <style>
+    .logo-text { font-family: 'Arial', sans-serif; font-weight: bold; }
+    .main-text { font-size: 28px; fill: #1E88E5; }
+    .sub-text { font-size: 14px; fill: #555; }
+    .icon { fill: #1E88E5; }
+  </style>
+  
+  <!-- Wave icon -->
+  <path class="icon" d="M35,20 C45,15 55,25 65,20 C75,15 85,25 95,20 L95,30 C85,35 75,25 65,30 C55,35 45,25 35,30 Z" />
+  
+  <!-- Boat icon -->
+  <path class="icon" d="M55,25 L75,25 L75,15 L65,8 L55,15 Z" />
+  <circle class="icon" cx="65" cy="12" r="2" />
+  
+  <!-- Text -->
+  <text x="100" y="30" class="logo-text main-text" text-anchor="middle">Fly Tours</text>
+  <text x="100" y="45" class="logo-text sub-text" text-anchor="middle">YACHT ADVENTURES</text>
+</svg> 

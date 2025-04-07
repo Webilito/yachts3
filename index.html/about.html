@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Fly Tours</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .about-detail {
+            padding: 100px 0;
+        }
+        
+        .about-detail-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .about-detail-section {
+            margin-bottom: 60px;
+        }
+        
+        .about-detail-section h2 {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .about-detail-section h2:after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 2px;
+            background-color: #1E88E5;
+            margin-top: 15px;
+        }
+        
+        .about-detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .about-feature {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .about-feature i {
+            font-size: 2.5rem;
+            color: #1E88E5;
+            margin-bottom: 20px;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .team-member {
+            text-align: center;
+        }
+        
+        .team-member img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+        
+        .stat-item {
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: #1E88E5;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .about-detail {
+                padding: 60px 0;
+            }
+            
+            .about-detail-grid,
+            .team-grid,
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="Fly Tours Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#about">About us</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#boats">Our boats</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="index.html#contacts">Contacts</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Detail Section -->
+    <section class="about-detail">
+        <div class="about-detail-content">
+            <div class="about-detail-section">
+                <h2>Our Story</h2>
+                <p>Founded in 2010, Fly Tours began with a simple vision: to provide unforgettable yacht experiences along the world's most beautiful coastlines. What started as a small operation with a single yacht has grown into a premier yacht charter company with a diverse fleet and a team of experienced professionals.</p>
+                <p>Our journey has been marked by a commitment to excellence, innovation, and customer satisfaction. We've expanded our services, refined our offerings, and built lasting relationships with clients who return year after year for their maritime adventures.</p>
+            </div>
+
+            <div class="about-detail-section">
+                <h2>Our Mission</h2>
+                <p>At Fly Tours, we believe that travel should be both luxurious and authentic. Our mission is to create personalized yacht experiences that allow our clients to discover hidden gems while enjoying the comfort and privacy of their own vessel.</p>
+                <div class="about-detail-grid">
+                    <div class="about-feature">
+                        <i class="fas fa-anchor"></i>
+                        <h3>Safety First</h3>
+                        <p>We maintain the highest safety standards and ensure all our vessels are equipped with the latest safety equipment.</p>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-star"></i>
+                        <h3>Luxury Experience</h3>
+                        <p>Our yachts are designed for comfort and style, offering premium amenities and exceptional service.</p>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Expert Navigation</h3>
+                        <p>Our experienced captains know the best routes and hidden spots to make your journey truly special.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-detail-section">
+                <h2>Our Team</h2>
+                <p>Our success is built on the expertise and dedication of our team. From experienced captains to professional crew members, each member of the Fly Tours team is committed to providing exceptional service.</p>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="images/team1.jpg" alt="Captain John Smith">
+                        <h3>Captain John Smith</h3>
+                        <p>Chief Operations Officer</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/team2.jpg" alt="Sarah Johnson">
+                        <h3>Sarah Johnson</h3>
+                        <p>Customer Experience Director</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="images/team3.jpg" alt="Michael Brown">
+                        <h3>Michael Brown</h3>
+                        <p>Fleet Manager</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-detail-section">
+                <h2>Our Achievements</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>13+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5000+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Yachts in Fleet</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Professional Crew</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-detail-section">
+                <h2>Our Commitment</h2>
+                <p>We are committed to sustainable tourism and environmental responsibility. Our yachts are equipped with eco-friendly systems, and we follow strict environmental guidelines to minimize our impact on the marine ecosystem.</p>
+                <p>We also believe in giving back to the communities we operate in, supporting local businesses and participating in marine conservation efforts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.svg" alt="Fly Tours Logo">
+                    <p>Unforgettable travels on yachts</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#boats">Our Boats</a></li>
+                        <li><a href="index.html#reviews">Reviews</a></li>
+                        <li><a href="index.html#contacts">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Subscribe to our newsletter</h4>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit" class="btn primary-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tours Yacht Adventures. Project by "Webilito- Sahil Naqvi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
